@@ -1,0 +1,71 @@
+version: '3.8'
+
+x-airflow-common:
+  &airflow-common
+  build:
+    context: .
+    dockerfile: Dockerfile.airflow
+  env_file:
+    - .env
+  environment:
+    &airflow-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    _AIRFLOW_WWW_USER_USERNAME: admin
+    _AIRFLOW_WWW_USER_PASSWORD: admin
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./migrate.py:/opt/airflow/migrate.py
+    - ./keys:/opt/airflow/keys
+
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    depends_on:
+      - airflow-webserver
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    depends_on:
+      - airflow-webserver
+
+  airflow-init:
+    <<: *airflow-common
+    depends_on:
+      - postgres
+    entrypoint: >
+      bash -c "
+        echo '⏳ Waiting for PostgreSQL...';
+        until pg_isready -h postgres -p 5432 -U airflow; do
+          sleep 2;
+        done;
+        echo '✅ PostgreSQL is ready!';
+        airflow db migrate &&
+        airflow users create --username admin --firstname Deepu --lastname Kumar --role Admin --email admin@example.com --password admin
+      "
+
+volumes:
+  postgres_db:

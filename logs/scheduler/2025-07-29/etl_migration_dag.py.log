@@ -1,0 +1,214 @@
+[2025-07-29T11:58:00.136+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:58:00.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T11:58:00.150+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:58:00.228+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:58:00.633+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.632+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:etl_migration_pipeline_v2
+[2025-07-29T11:58:00.659+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.658+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:etl_migration_pipeline_v2
+[2025-07-29T11:58:00.675+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.673+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:etl_migration_pipeline_v2
+[2025-07-29T11:58:00.678+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T11:58:00.713+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.701+0000] {dag.py:3118} INFO - Creating ORM DAG for etl_migration_pipeline_v2
+[2025-07-29T11:58:00.733+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:00.732+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-18 12:00:00+00:00, run_after=2025-07-25 12:00:00+00:00
+[2025-07-29T11:58:00.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.637 seconds
+[2025-07-29T11:58:31.130+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:58:31.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T11:58:31.134+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:31.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:58:31.168+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:58:31.200+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:31.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T11:58:31.228+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:58:31.228+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-18 12:00:00+00:00, run_after=2025-07-25 12:00:00+00:00
+[2025-07-29T11:58:31.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.152 seconds
+[2025-07-29T11:59:01.374+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:59:01.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T11:59:01.378+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:59:01.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:59:01.413+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:59:01.448+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:59:01.448+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T11:59:01.474+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:59:01.474+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-18 12:00:00+00:00, run_after=2025-07-25 12:00:00+00:00
+[2025-07-29T11:59:01.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.133 seconds
+[2025-07-29T11:59:31.664+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:59:31.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T11:59:31.667+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:59:31.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:59:31.698+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T11:59:31.722+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:59:31.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T11:59:31.744+0000] {logging_mixin.py:188} INFO - [2025-07-29T11:59:31.744+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T11:59:31.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.115 seconds
+[2025-07-29T12:00:02.117+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:00:02.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:00:02.129+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:00:02.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:00:02.215+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:00:02.251+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:00:02.251+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:00:02.301+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:00:02.301+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:00:02.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.285 seconds
+[2025-07-29T12:00:32.570+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:00:32.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:00:32.579+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:00:32.578+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:00:32.643+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:00:32.669+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:00:32.669+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:00:32.703+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:00:32.703+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:00:32.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.223 seconds
+[2025-07-29T12:01:03.120+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:01:03.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:01:03.123+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:01:03.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:01:03.150+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:01:03.177+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:01:03.177+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:01:03.195+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:01:03.195+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:01:03.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.115 seconds
+[2025-07-29T12:01:33.568+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:01:33.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:01:33.572+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:01:33.571+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:01:33.601+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:01:33.629+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:01:33.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:01:33.652+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:01:33.651+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:01:33.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.113 seconds
+[2025-07-29T12:02:03.916+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:02:03.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:02:03.922+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:02:03.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:02:04.000+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:02:04.084+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:02:04.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:02:04.160+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:02:04.160+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:02:04.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.330 seconds
+[2025-07-29T12:02:34.371+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:02:34.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:02:34.383+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:02:34.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:02:34.461+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:02:34.535+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:02:34.535+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:02:34.593+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:02:34.593+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:02:34.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.294 seconds
+[2025-07-29T12:03:05.151+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:03:05.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:03:05.158+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:03:05.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:03:05.198+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:03:05.239+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:03:05.239+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:03:05.279+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:03:05.279+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:03:05.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.169 seconds
+[2025-07-29T12:03:35.569+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:03:35.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:03:35.578+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:03:35.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:03:35.655+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:03:35.729+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:03:35.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:03:35.762+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:03:35.762+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:03:35.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.278 seconds
+[2025-07-29T12:04:06.108+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:04:06.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:04:06.111+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:04:06.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:04:06.140+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:04:06.168+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:04:06.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:04:06.191+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:04:06.191+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:04:06.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.109 seconds
+[2025-07-29T12:04:36.506+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:04:36.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:04:36.511+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:04:36.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:04:36.554+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:04:36.591+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:04:36.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:04:36.625+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:04:36.625+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:04:36.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.159 seconds
+[2025-07-29T12:05:06.900+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:05:06.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:05:06.904+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:05:06.903+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:05:06.931+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:05:06.957+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:05:06.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:05:06.980+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:05:06.980+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:05:07.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.106 seconds
+[2025-07-29T12:05:37.368+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:05:37.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:05:37.373+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:05:37.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:05:37.421+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:05:37.468+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:05:37.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:05:37.518+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:05:37.517+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:05:37.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.226 seconds
+[2025-07-29T12:06:07.685+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:06:07.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:06:07.690+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:06:07.690+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:06:07.719+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:06:07.745+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:06:07.745+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:06:07.775+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:06:07.774+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:06:07.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.126 seconds
+[2025-07-29T12:06:38.081+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:06:38.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:06:38.086+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:06:38.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:06:38.118+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:06:38.142+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:06:38.142+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:06:38.170+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:06:38.169+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:06:38.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.118 seconds
+[2025-07-29T12:07:08.451+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:07:08.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:07:08.456+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:07:08.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:07:08.488+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:07:08.514+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:07:08.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:07:08.541+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:07:08.541+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:07:08.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.123 seconds
+[2025-07-29T12:07:38.939+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:07:38.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:07:38.953+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:07:38.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:07:39.013+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:07:39.036+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:07:39.036+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:07:39.060+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:07:39.060+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:07:39.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.171 seconds
+[2025-07-29T12:08:09.524+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:08:09.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:08:09.528+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:08:09.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:08:09.558+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:08:09.582+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:08:09.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:08:09.609+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:08:09.609+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:08:09.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.120 seconds
+[2025-07-29T12:08:39.931+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:08:39.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:08:39.935+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:08:39.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:08:39.991+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:08:40.055+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:08:40.055+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:08:40.078+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:08:40.078+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:08:40.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.184 seconds
+[2025-07-29T12:09:10.394+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:09:10.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:09:10.397+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:09:10.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:09:10.423+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:09:10.448+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:09:10.448+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:09:10.471+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:09:10.470+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:09:10.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.104 seconds
+[2025-07-29T12:09:41.325+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:09:41.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:09:41.337+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:09:41.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:09:41.487+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:09:41.522+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:09:41.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:09:41.542+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:09:41.542+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:09:41.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.247 seconds
+[2025-07-29T12:10:11.692+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:10:11.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:10:11.695+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:10:11.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:10:11.721+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:10:11.745+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:10:11.744+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:10:11.763+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:10:11.763+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:10:11.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.095 seconds
+[2025-07-29T12:10:42.200+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:10:42.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:10:42.210+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:10:42.209+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:10:42.261+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:10:42.354+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:10:42.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:10:42.387+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:10:42.387+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:10:42.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.250 seconds
+[2025-07-29T12:11:12.750+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:11:12.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:11:12.754+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:11:12.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:11:12.778+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:11:12.803+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:11:12.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:11:12.837+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:11:12.836+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:11:12.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.121 seconds
+[2025-07-29T12:11:43.248+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:11:43.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:11:43.254+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:11:43.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:11:43.307+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:11:43.377+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:11:43.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:11:43.473+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:11:43.472+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:11:43.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.275 seconds
+[2025-07-29T12:12:13.956+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:12:13.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:12:13.960+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:12:13.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:12:14.001+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:12:14.045+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:12:14.045+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:12:14.071+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:12:14.071+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:12:14.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.151 seconds
+[2025-07-29T12:12:44.412+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:12:44.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_migration_dag.py for tasks to queue
+[2025-07-29T12:12:44.416+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:12:44.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:12:44.449+0000] {processor.py:840} INFO - DAG(s) 'etl_migration_pipeline_v2' retrieved from /opt/airflow/dags/etl_migration_dag.py
+[2025-07-29T12:12:44.483+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:12:44.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-29T12:12:44.506+0000] {logging_mixin.py:188} INFO - [2025-07-29T12:12:44.505+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_migration_pipeline_v2 to 2025-07-25 12:00:00+00:00, run_after=2025-08-01 12:00:00+00:00
+[2025-07-29T12:12:44.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_migration_dag.py took 0.131 seconds
